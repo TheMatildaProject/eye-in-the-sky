@@ -14,7 +14,7 @@ python app.py <OWM_API_KEY>
 `docker build --build-arg OWM_API_KEY=<OWM_API_KEY> . -t wapi`
 
 #### One-off run
-`docker run -p 5000:5000 wapi`
+`docker run -d --name weather-api -p 5000:5000 wapi`
 
 #### Run through docker compose
 `docker-compose up -d`
