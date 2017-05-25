@@ -1,0 +1,5 @@
+api:
+  container_name: weather-api
+  image: wapi:latest
+  ports:
+    - "5000:5000"
