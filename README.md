@@ -1,6 +1,10 @@
 # Weather Api
 A (really) simple weather forecast API written in Flask
 
+## Requirements
+- Python or Docker
+- Open Weather API Token, get one here: https://openweathermap.org/api
+
 ## Installation
 
 ### Old School
