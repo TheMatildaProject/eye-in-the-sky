@@ -1,8 +1,8 @@
-import pyowm
+import pyowm, sys
 from flask import Flask
 
 app = Flask(__name__)
-owm = pyowm.OWM('cc9b14c75920b2df47b3d8b6d6cce6f2')
+owm = pyowm.OWM(sys.argv[1])
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
