@@ -18,7 +18,7 @@ export FLASK_APP=app.py; export OWM_TOKEN=$OWM_API_KEY; flask run --host=0.0.0.0
 `docker build --build-arg OWM_API_KEY=<OWM_API_KEY> . -t wapi`
 
 #### One-off run
-`docker run -d --name weather-api -p 5000:5000 wapi`
+`docker run -d --name weather-api -p 5001:5000 wapi`
 
 #### Run through docker compose
 `docker-compose up -d`
