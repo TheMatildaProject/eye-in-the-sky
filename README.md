@@ -10,7 +10,7 @@ A (really) simple weather forecast API written in Flask
 ### Old School
 ```
 pip install -r requirements.txt
-export FLASK_APP=/app/app.py; export OWM_TOKEN=$OWM_API_KEY; flask run --host=0.0.0.0 --port=5000
+export FLASK_APP=app.py; export OWM_TOKEN=$OWM_API_KEY; flask run --host=0.0.0.0 --port=5000
 ```
 
 ### Docker
