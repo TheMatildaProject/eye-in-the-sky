@@ -1,4 +1,4 @@
-# Weather Api
+# Eye in the sky
 A (really) simple weather forecast API written in Flask
 
 ## Requirements
