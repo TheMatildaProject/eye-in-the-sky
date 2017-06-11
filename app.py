@@ -10,7 +10,8 @@ def weather():
         return jsonify({'error': 'Missing city'}), 400
 
     observation = owm.weather_at_place(request.json['city'])
-    return jsonify({'forecast': str(observation.get_weather().get_temperature('celsius'))})
+    
+    return jsonify({'forecast': observation.get_weather().get_temperature('celsius')})
 
 if __name__ == "__main__":
     app.run(debug=True)
